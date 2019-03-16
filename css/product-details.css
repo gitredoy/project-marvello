@@ -1,0 +1,250 @@
+body{
+	background-color: #f1f1f1;
+}
+.bg-white{
+	padding: 20px;
+}
+.product-description {
+text-align: justify;
+margin-left: 15px;
+}
+.product-description .btn {
+background-color: #f39c12;
+border-color: transparent;
+color: #fff;
+}
+.product-here{
+margin-top: 50px;
+}
+.product-description p > strong {
+margin-right:10px;
+}
+.product-description p > span {
+font-weight: bold;
+}
+.product-main{
+text-align: center;
+}
+.summary{
+background-color: #ccc;
+}
+.rating{
+margin-top: -20px;
+font-size: 20px;
+}
+.rating span{
+padding-right:20px;
+}
+.rating .full:before{
+content: "\f005";
+position: absolute;
+font-family:'FontAwesome';
+color: #f1c40f;
+}
+.rating .empty:before{
+content: "\f006";
+position: absolute;
+font-family:'FontAwesome';
+color: #f1c40f;
+}
+.rating .half:before{
+content: "\f123";
+position: absolute;
+font-family:'FontAwesome';
+color: #f1c40f;
+}
+.qty-num{
+width: 50px;
+}
+.delete{
+margin-top: 20px;
+}
+.product-head{
+border-bottom: 5px solid #f00;
+background-color: #f9f9f9;
+padding: 10px;
+margin: 5px;
+text-transform: uppercase;
+}
+.cart-product{
+margin-top: 50px;
+}
+.cart-check{
+border-top: 1px solid #d2dae2;
+margin-top: 50px;
+}
+.cart-check .btn{
+margin-top: 20px;
+}
+#zoom_05{
+width: 300px;
+}
+.product-rating{
+}
+.product-rating i:hover{
+}
+.product-rating small{
+margin-left: 10px;
+}
+.old-price{
+font-size: 20px;
+text-decoration: line-through;
+}
+.old-price,.new-price,.dp-price,.vendor{
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.new-price{
+font-weight: bolder;
+font-size: 20px;
+color:#f60;
+}
+.product-code{
+color:#38ada9;
+}
+
+.details-buy{
+margin-top:30px;
+margin-left: 15px;
+}
+.details-buy button{
+background-color: #eb2f06;
+color: #fff;
+padding:15px;
+cursor: pointer;
+border-color: transparent;
+transition: 0.2s ease;
+}
+.topic{
+text-align: center;
+margin-top: 50px;
+}
+.topic h5{
+color: #777;
+font-weight: bolder;
+}
+.product-essential,.topic,.share-payment,.product-option{
+background-color: #fff;
+padding: 50px;
+margin:10px;
+}
+.sale img{
+	width: 100%;
+}
+.fa-facebook-square{
+color: #5f7ca7;
+}
+.fa-twitter-square{
+color: #5dc4e6;
+}
+.fa-pinterest-square{
+color: #e56363;
+}
+.fa-google-plus-square{
+color: #4f4f4f;
+}
+.product-option{
+margin-top: 30px;
+}
+.tab-details{
+margin-top: 50px;
+}
+.tab-details strong{
+margin-top: 50px;
+}
+.tab-space{
+margin-top: 50px;
+}
+.delivery-time{
+	color: #333;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+.zoom .img-fluid{
+height:274px;
+}
+/*set a border on the images to prevent shifting*/
+#gal1 img{
+border:2px solid white;
+width:100px;
+}
+/*Change the colour*/
+.active img{border:2px solid #333 !important;}
+.review-form{
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+padding: 30px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bolder;
+margin-bottom: 50px;
+}
+.review-head{
+text-align: center;
+}
+.avatar img{
+width: 50px;
+}
+.comment{
+margin-top:20px;
+}
+#profile li,#contact li{
+line-height: 3;
+}
+.product-rating i{
+	color: #f1c40f;
+}
+.review-rating i{
+color:#f1c40f;
+}
+
+/*===============rerview-product============*/
+
+.review-form{
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+padding: 30px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bolder;
+margin-bottom: 50px;
+margin-top: 100px;
+}
+.review-head{
+text-align: center;
+}
+.related-title{
+	position: relative;
+	margin-top: 100px;
+}
+.related-title h5{
+	background-color: #ba2873;
+	color: #fff;
+	padding:10px;
+	width: 15%;
+}
+.related-title:after{
+	content: '';
+	border-bottom: 1px solid #ba2873;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+}
+.product-show .card {
+    position: relative;
+    width: 100%;
+    height: 420px;
+    display: block;
+}
+.product-option .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #da84ae;
+    border-color: #da84ae #da84ae #fff;
+}
+.items-list span{
+	font-weight: bold;
+}
+.bdt{
+	    font-family: arial;
+}
+.bdt:before{
+	content: '৳';
+
+}

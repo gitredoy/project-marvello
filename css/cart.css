@@ -1,0 +1,43 @@
+body{
+	background: #fff;
+}
+.cart-table{
+    background: #fff;
+    width: 75%;
+    display: block;
+    margin: 30px auto;
+}
+.img-cart{
+	width: 100px;
+	border: 1px solid #ccc;
+}
+.cart-table .product-name a{
+  color: #8e44ad;
+  font-size: 15px;
+}
+.cart-table .brand-name a{
+  color: #f1c40f;
+  font-size: 15px;
+}
+.cart-table{
+	color:#e17055;
+}
+.cart-table  .table td {
+vertical-align: middle;
+}
+.product-color{
+	color: #fab1a0;
+}
+.product-color span{
+	color: 
+}
+.bdt{
+	    font-family: arial;
+}
+.bdt:before{
+	content: '৳';
+
+}
+.table-right{
+	text-align: right;
+}
